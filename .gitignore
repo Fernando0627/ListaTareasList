@@ -1,0 +1,19 @@
+
+# ignorar carpeta de modulos
+node_modules
+.browserslistrc
+.editorconfig
+.eslintrc.json
+.vscode
+.tmp
+.sass-cache
+platforms
+plugins
+*.swp
+*.swo
+*.log
+*.DS_Store
+
+# Ignorar la carpeta angular cache
+.angular/cache/
+

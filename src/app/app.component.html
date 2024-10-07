@@ -1,0 +1,27 @@
+<ion-app>
+  <ion-menu contentId="menu">
+    <ion-header>
+      <div class="logo-container">
+        <img src="https://brandemia.org/contenido/subidas/2023/10/nequi-icono-1024x576.jpg" alt="logo">
+      </div>
+    </ion-header>
+    <ion-content>
+      <ion-list lines="full">
+        <ion-item routerLink="actividades" (click)="closeMenu()">
+          <ion-icon name="add-circle" slot="start"></ion-icon>
+          <ion-label>Lista de categorías</ion-label>
+        </ion-item>
+        <ion-item routerLink="home" (click)="closeMenu()">
+          <ion-icon name="home" slot="start"></ion-icon>
+          <ion-label>Tareas</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+    <ion-footer>
+      <ion-toolbar color="uva"></ion-toolbar>
+    </ion-footer>
+  </ion-menu>
+  <ion-router-outlet id="menu"></ion-router-outlet>
+</ion-app>
+
+

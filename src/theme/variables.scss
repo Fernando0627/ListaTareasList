@@ -1,0 +1,80 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+    --ion-color-uva: #7d42b1;
+    --ion-color-uva-rgb: 111,45,168;
+    --ion-color-uva-contrast: #ffffff;
+    --ion-color-uva-contrast-rgb: 255,255,255;
+    --ion-color-uva-shade: #622894;
+    --ion-color-uva-tint: #7d42b1;
+
+    --ion-color-orquidea: #DA70D6;
+    --ion-color-orquidea-rgb: 218,112,214;
+    --ion-color-orquidea-contrast: #000000;
+    --ion-color-orquidea-contrast-rgb: 0,0,0;
+    --ion-color-orquidea-shade: #c063bc;
+    --ion-color-orquidea-tint: #de7eda;
+
+    --ion-color-rosa: #FF94AC;
+	--ion-color-rosa-rgb: 255,148,172;
+	--ion-color-rosa-contrast: #000000;
+	--ion-color-rosa-contrast-rgb: 0,0,0;
+	--ion-color-rosa-shade: #e08297;
+	--ion-color-rosa-tint: #ff9fb4;
+
+
+.ion-color-uva {
+    --ion-color-base: var(--ion-color-uva);
+    --ion-color-base-rgb: var(--ion-color-uva-rgb);
+    --ion-color-contrast: var(--ion-color-uva-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-uva-contrast-rgb);
+    --ion-color-shade: var(--ion-color-uva-shade);
+    --ion-color-tint: var(--ion-color-uva-tint);
+}
+
+.ion-color-orquidea {
+    --ion-color-base: var(--ion-color-orquidea);
+    --ion-color-base-rgb: var(--ion-color-orquidea-rgb);
+    --ion-color-contrast: var(--ion-color-orquidea-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-orquidea-contrast-rgb);
+    --ion-color-shade: var(--ion-color-orquidea-shade);
+    --ion-color-tint: var(--ion-color-orquidea-tint);
+}
+
+.ion-color-rosa {
+	--ion-color-base: var(--ion-color-rosa);
+	--ion-color-base-rgb: var(--ion-color-rosa-rgb);
+	--ion-color-contrast: var(--ion-color-rosa-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-rosa-contrast-rgb);
+	--ion-color-shade: var(--ion-color-rosa-shade);
+	--ion-color-tint: var(--ion-color-rosa-tint);
+}
+
+ion-toolbar {
+    --min-height: 80px; 
+}
+
+ion-input,
+ion-textarea,
+ion-select {
+    --highlight-color-focused:var(--ion-color-uva);
+    --highlight-color-valid:var(--ion-color-uva);
+    --border-radius: 10px !important
+}
+
+ion-header,
+ion-footer {
+    box-shadow: none !important;
+}
+
+ion-button {
+    --box-shadow: none;
+}
+ion-card {
+    margin-top: 20px;
+}
+
+
+
+}
+

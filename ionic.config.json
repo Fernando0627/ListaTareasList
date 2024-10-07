@@ -1,0 +1,8 @@
+{
+  "name": "to-do-list-nequi",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

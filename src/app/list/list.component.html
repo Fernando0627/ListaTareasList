@@ -1,0 +1,60 @@
+<ion-list>
+  <ion-item *ngFor="let task of filteredTasks">
+    <ion-label>
+      <h2>{{ task.title }}</h2>
+      <p>Categoría: {{ task.category }}</p>
+    </ion-label>
+    <ion-icon 
+      name="checkmark-circle" 
+      slot="end" 
+      color="success" 
+      *ngIf="task.completed" 
+      (click)="toggleTaskCompletion(task)"></ion-icon>
+    <ion-icon 
+      name="checkmark-circle-outline" 
+      slot="end" 
+      color="medium" 
+      *ngIf="!task.completed" 
+      (click)="toggleTaskCompletion(task)"></ion-icon>
+    
+    <!-- Ícono para eliminar tarea -->
+    <ion-icon 
+      name="trash" 
+      slot="end" 
+      color="orquidea" 
+      (click)="deleteTask(task)"
+      style="cursor: pointer; margin-left: 10px;"></ion-icon>
+    
+    <!-- Ícono para actualizar tarea -->
+    <ion-icon 
+      name="create" 
+      slot="end" 
+      color="uva" 
+      (click)="updateTask(task)"
+      style="cursor: pointer; margin-left: 10px;"></ion-icon>
+  </ion-item>
+</ion-list>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
