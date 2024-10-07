@@ -1,7 +1,7 @@
 # LISTAR TAREAS
 * crear un nuevo proyecto IONIC
 ```
-
+--codigo para crear el proyecto
 ```
 
 * modificar el codigo para poder desplega 
